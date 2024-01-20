@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
     <AppLayout>
       <div className="bg-black">
         <img
-          src="/bg-home.jpeg"
+          src="/home-bg.png"
           width={0}
           height={0}
           className="w-full object-cover -mt-32"
