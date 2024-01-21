@@ -68,8 +68,8 @@ const Header: React.FC<HeaderProps> = () => {
             <Link href="/">
               <div className="flex items-center cursor-pointer transition duration-300 hover:opacity-80">
                 <Image
-                  src="/favicon.ico"
-                  alt="Home-Rental Logo"
+                  src="/favicon.png"
+                  alt="home-rental Logo"
                   width={120}
                   height={40}
                   data-aos="fade-right" // Apply fade-right animation

@@ -66,7 +66,7 @@ const AboutUs: React.FC = () => {
         >
           <span
             id="blackOverlay"
-            className="w-full h-full absolute opacity-75 bg-black"
+            className="w-full h-full absolute opacity-50 bg-black"
           ></span>
         </div>
         <div className="container relative mx-auto">
@@ -77,7 +77,7 @@ const AboutUs: React.FC = () => {
                   Your story starts with us.
                 </h1>
                 <p className="mt-4 text-lg text-white">
-                  Explore RentalDai's user-friendly platform, where you can
+                  Explore HomeRental's user-friendly platform, where you can
                   easily browse through available properties, view high-quality
                   images, and get detailed insights into each rental option.
                 </p>
@@ -118,7 +118,7 @@ const AboutUs: React.FC = () => {
                   <h6 className="text-xl font-semibold">Trusted by Tenants</h6>
                   <p className="mt-2 mb-4 text-gray-500">
                     Join a community of satisfied tenants who found their ideal
-                    home through Rental-Dai.
+                    home through home-rental.
                   </p>
                 </div>
               </div>
@@ -189,7 +189,7 @@ const AboutUs: React.FC = () => {
                   Find Your Perfect Home
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                  Rental-Dai is your trusted partner in finding cozy homes and
+                  home-rental is your trusted partner in finding cozy homes and
                   rooms across Nepal. Dive into our extensive selection and find
                   a place that feels like home.
                 </p>
@@ -240,7 +240,179 @@ const AboutUs: React.FC = () => {
         </div>
       </section>
 
-      <section className="pb-20 relative block bg-blue-300">
+      <section data-aos="fade-up" className="pt-20 pb-48">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center text-center mb-24">
+            <div className="w-full lg:w-6/12 px-4">
+              <h2 className="text-4xl font-semibold text-red-500">
+                Here are our heroes
+              </h2>
+              <p className="text-lg leading-relaxed m-4 text-gray-500">
+                According to the National Oceanic and Atmospheric
+                Administration, Ted, Scambos, NSIDClead scentist, puts the
+                potentially record maximum.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-wrap flex-center">
+            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div className="px-6">
+                <img
+                  alt="..."
+                  // src="/nabaraj-sir.png"
+                  className="shadow-lg rounded-full mx-auto max-w-120-px"
+                />
+                <div className="pt-6 text-center">
+                  <h5 className="text-xl font-bold">Dolma Tshering Lama</h5>
+                  <p className="mt-1 text-sm text-gray-400 uppercase font-semibold">
+                    Frontend Developer
+                  </p>
+
+                  <div className="mt-6 grid-flow-row gap-y-4">
+                    <a href="https://www.google.com" target="_blank">
+                      <button
+                        className="text-white p-3 mx-2 text-center inline-flex items-center justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-blue-300"
+                        type="button"
+                      >
+                        <FaTwitter className="fab"></FaTwitter>
+                      </button>
+                    </a>
+
+                    <a href="https://www.google.com" target="_blank">
+                      <button
+                        className="text-white p-3 mx-2 text-center inline-flex items-center justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-blue-600"
+                        type="button"
+                      >
+                        <FaFacebook className="fab "></FaFacebook>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div className="px-6">
+                <img
+                  alt="..."
+                  // src="/sirak-shrestha.jpeg"
+                  className="shadow-lg rounded-full mx-auto max-w-120-px"
+                />
+                <div className="pt-6 text-center">
+                  <h5 className="text-xl font-bold">Chesna Maharjan</h5>
+                  <p className="mt-1 text-sm text-gray-400 uppercase font-semibold">
+                    UI/Ux Designer
+                  </p>
+
+                  <div className="mt-6 grid-flow-row gap-y-4">
+                    <a href="https://www.google.com" target="_blank">
+                      <button
+                        className="text-white p-3 mx-2 text-center inline-flex items-center justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-blue-300"
+                        type="button"
+                      >
+                        <FaTwitter className="fab"></FaTwitter>
+                      </button>
+                    </a>
+
+                    <a href="https://www.google.com" target="_blank">
+                      <button
+                        className="text-white p-3 mx-2 text-center inline-flex items-center justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-blue-600"
+                        type="button"
+                      >
+                        <FaFacebook className="fab "></FaFacebook>
+                      </button>
+                    </a>
+
+                    <a href="https://www.google.com" target="_blank">
+                      <button
+                        className=" text-white p-3 mx-2 text-center inline-flex items-center justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-yellow-300"
+                        type="button"
+                      >
+                        <FaDribbble className="fab"></FaDribbble>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div className="px-6">
+                <img
+                  alt="..."
+                  // src="/jwalan-chand.jpeg"
+                  className="shadow-lg rounded-full mx-auto max-w-120-px"
+                />
+                <div className="pt-6 text-center">
+                  <h5 className="text-xl font-bold">Leah KC</h5>
+                  <p className="mt-1 text-sm text-gray-400 uppercase font-semibold">
+                    Backend Developer
+                  </p>
+                  <div className="mt-6">
+                    <a href="https://www.google.com" target="_blank">
+                      <button
+                        className="text-white p-3 mx-2 text-center inline-flex items-center hover:shadow-lg duration-150 justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-red-600"
+                        type="button"
+                      >
+                        <FaGoogle className="fab"></FaGoogle>
+                      </button>
+                    </a>
+                    <button
+                      className="text-white p-3 mx-2 text-center inline-flex items-center justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-blue-600"
+                      type="button"
+                    >
+                      <FaFacebook className="fab"></FaFacebook>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div className="px-6">
+                <img
+                  alt="..."
+                  src="/dipesh-sanjel.jpeg"
+                  className="shadow-lg rounded-full mx-auto max-w-120-px"
+                />
+                <div className="pt-6 text-center">
+                  <h5 className="text-xl font-bold">Dipesh Sanjel</h5>
+                  <p className="mt-1 text-sm text-gray-400 uppercase font-semibold">
+                    Project Leader
+                  </p>
+                  <div className="mt-6 mx-2">
+                    <a href="https://www.google.com" target="_blank">
+                      <button
+                        className="text-white p-3 text-center mx-2 inline-flex items-center hover:shadow-lg duration-150 justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-red-600"
+                        type="button"
+                      >
+                        <FaGoogle className="fab"></FaGoogle>
+                      </button>
+                    </a>
+
+                    <a href="https://www.twitter.com" target="_blank">
+                      <button
+                        className="text-white p-3 text-center mx-2 inline-flex hover:shadow-lg duration-150 items-center justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-blue-300"
+                        type="button"
+                      >
+                        <FaTwitter className="fab"></FaTwitter>
+                      </button>
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank">
+                      <button
+                        className="text-yellow-200 p-3 text-center mx-2 inline-flex items-center hover:shadow-lg duration-150 justify-center w-10 h-10 mb-5 shadow-lg rounded-full bg-pink-700"
+                        type="button"
+                      >
+                        <FaInstagram className="fab"></FaInstagram>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className=" relative block bg-blue-300">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: "translateZ(0)" }}
@@ -314,6 +486,72 @@ const AboutUs: React.FC = () => {
           </div>
         </div>
       </section>
+      {/* <section className="relative block py-24 lg:pt-0 ">
+        <div className="container mx-auto px-4 ">
+          <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48 ">
+            <div className="w-full lg:w-6/12 px-4">
+              <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-200">
+                <div className="flex-auto p-5 lg:p-10 bg-red-400 shadow-md">
+                  <h4 className="text-2xl font-semibold">
+                    Want to be a part of us with us?
+                  </h4>
+                  <p className="leading-relaxed mt-1 mb-4 text-white">
+                    Complete this form and we will get back to you in 24 hours.
+                  </p>
+                  <div className="relative w-full mb-3 mt-8">
+                    <label
+                      className="block uppercase text-white text-xs font-bold mb-2 focus:outline-none focus:border-red-500"
+                      htmlFor="full-name"
+                    >
+                      Full Name
+                    </label>
+                    <input
+                      type="text"
+                      className="border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:ring w-full ease-linear transition-all duration-150 focus:outline-none focus:border-red-500"
+                      placeholder="Full Name"
+                    />
+                  </div>
+
+                  <div className="relative w-full mb-3">
+                    <label
+                      className="block uppercase text-white text-xs font-bold mb-2 focus:border-red-500"
+                      htmlFor="email"
+                    >
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      className="border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      placeholder="Email"
+                    />
+                  </div>
+
+                  <div className="relative w-full mb-3">
+                    <label
+                      className="block uppercase text-white text-xs font-bold mb-2 focus:border-red-500"
+                      htmlFor="message"
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      className="border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                      placeholder="Type a message..."
+                    />
+                  </div>
+                  <div className="text-center mt-6">
+                    <button
+                      className="bg-white text-black active:bg-red-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="button"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
     </AppLayout>
   );
 };

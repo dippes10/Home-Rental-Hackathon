@@ -67,6 +67,93 @@ a {
   font-weight: bold;
 }
 
+
+
+.bgHeader{
+  background-image: url('../public/bg-header.jpg');
+  background-size: auto;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bgFooter{
+  background-image: url('../public/footer.png');
+  background-size: auto;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bgLogin{
+  background-image: url('../public/bg-login.jpeg');
+  background-size: cover;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bgSignup{
+  background-image: url('../public/bg-signup.jpg');
+  background-size: cover;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bgListerForm{
+  background-image: url('../public/lister-form-bg.jpg');
+  background-size: cover;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.contact-us-form
+{
+  background-image: url('../public/contact-us.png');
+  background-size: cover;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bg-properties
+{
+  background-image: url('../public/bgproperties.png');
+  background-size: cover;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bg-login
+{
+  background-image: url('../public/bg-login.png');
+  background-size: cover;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bg-contact
+{
+  background-image: url('../public/bg-contact.png');
+  background-size: cover;
+  background-position: 100% 50%;
+  margin-top: -8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .Dropdown{
 height: 90px;
 width: 180px;
@@ -253,14 +340,4 @@ border-color: rgb(238, 80, 80);
   align-items: center;
   // margin-right: 1rem;
   // margin-bottom: 1rem;
-}
-
-.contact-us-form
-{
-  background-image: url('../public/contact-us.jpg');
-  background-size: cover;
-  background-position: 100% 50%;
-  margin-top: -8rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
 }

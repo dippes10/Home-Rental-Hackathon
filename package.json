@@ -1,7 +1,8 @@
 {
-  "name": "home-rental",
+  "name": "home-rental-frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
